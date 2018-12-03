@@ -1,0 +1,135 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    color: dimgray;
+    transition: background-color .4s, color .4s;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+
+a:hover {
+    color:darkslategray;
+}
+
+ul {
+    padding-left: 0;
+}
+body {
+    height: 700px;
+    flex-wrap: wrap;
+    background-color:lightsteelblue;
+    }
+
+
+header {
+    display:flex;
+    background-color: azure;
+    flex-direction: row;
+    align-items: center;
+}
+header nav {
+    flex: 1;
+}
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header nav li {
+    list-style-type: none;
+    padding: 1em;
+}
+
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 1;
+}
+.mainitems {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+
+
+form p {
+    display: flex;
+margin-bottom: 1em;
+    margin-left: 1em;
+}
+/*
+form select {
+    text-align: center;
+}
+*/
+form label {
+    flex-basis: 10%;
+}
+
+form input, textarea, select {
+    flex: .3;
+    margin: 0 1em;
+    border-radius: 5px;
+}
+
+#submit {
+   padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-size: 15px;
+    font-family:serif;
+    color: dimgray;
+}
+/*
+    #submit p:hover {
+    color:darkslategray;
+}
+*/
+
+.radiobutton {
+    padding-left: 20px;
+    color: dimgray;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: azure;
+    align-items: center;
+}
+footer nav {
+    flex: 1;
+}
+footer nav ul {
+    display: flex;
+}
+footer nav li {
+    list-style-type: none;
+    padding: 1em;
+}
+
+
+
+@media screen and (max-width: 30rem) {
+    header,
+    main,
+    footer,
+    form p {
+        flex-direction: column;
+    }
+   
+}
+
+

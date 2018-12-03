@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.images {
+    box-shadow: 3px 3px #dddddd;
+    height: 200px;
+    width: 300px;
+}
+
+.aboutpics {
+    box-shadow: 2px 2px #cccccc;
+    height: 300px;
+}
+
+#margin-height {
+    margin-right: 20px;
+    height: 100px;
+}
+h1 {
+    font-family: cursive;
+}
+
+h2 {
+    font-family: sans-serif;
+    color:whitesmoke;
+    }
+
+p {
+    color: darkslategray;
+/*    background-color:azure;*/
+}
+
+ul {
+/*    background-color:azure;*/
+    font-size: 14pt
+}
+
+#owltree {
+    margin-left: 20px;
+}
