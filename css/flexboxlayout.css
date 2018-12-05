@@ -90,11 +90,7 @@ form input, textarea, select {
     font-family:serif;
     color: dimgray;
 }
-/*
-    #submit p:hover {
-    color:darkslategray;
-}
-*/
+
 
 .radiobutton {
     padding-left: 20px;
